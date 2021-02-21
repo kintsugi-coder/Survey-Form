@@ -1,0 +1,112 @@
+/* reset */
+body, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+		
+h1 {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.5em;
+		padding-top: 1em;
+}
+
+p {
+  font-size: 1.125em;
+	margin-bottom: 0.5em;
+}
+
+/* base styles */
+
+body {
+	background-color: #D7DCDD;
+	font-family: 'Poppins', sans-serif;
+	}
+	
+#title, #description {
+    text-align: center;
+}		
+
+form {
+  background: rgb(9, 40, 107, 0.4);
+	padding: 20px 30px;
+}
+
+.form-inputs {
+    display: block;
+    background-color: #fff;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    color: #000;
+    font-size: 1em;
+		width: 100%;
+    margin: 10px 0;
+}
+
+.container textarea {
+    width: 100%;
+    margin: 10px 0;
+		resize: vertical;
+		font-family: inherit;
+		font-size: inherit;
+		line-height: inherit;
+}
+
+.submit-button {
+		display: inline-block;
+    background-color: #add8e6;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 2px solid #ced4da;
+    color: #000;
+    font-size: 1em;
+		width: 100%;
+    margin: 0;
+		cursor: pointer;
+}
+
+.submit-button:hover {
+		color: #fff;
+		background-color: #0000ff;
+}
+
+.form-group {
+		margin: 0 auto 1.25rem auto;
+		padding: 0.25rem;
+}
+
+/* mobile styles */
+
+
+.container {
+    padding: 10px 20px;
+}
+
+.container form {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px auto;
+    text-align: left;
+		border-radius: 20px;
+}    
+
+/* small tablet styles */
+@media screen and (min-width: 620px){
+	
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px){
+	
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px){
+	
+}
+
+
